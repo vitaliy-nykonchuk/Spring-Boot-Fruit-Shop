@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<body>
+<nav id="menu" th:fragment="menu" class="navbar navbar-expand-lg" style="background-color: #752d2d;">
+    <div  class="container-fluid">
+        <span class="navbar-brand mb-0 h1 text-white">FRUIT SHOP</span>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link text-white" th:href="@{/admin}">Home</a>
+                <a class="nav-link text-white" th:href="@{/admin/citrus-fruits}">Citrus fruits</a>
+                <a class="nav-link text-white" th:href="@{/admin/rosy-fruits}">Rosy fruits</a>
+                <a class="nav-link text-white" th:href="@{/admin/stone-fruits}">Stone fruits</a>
+            </div>
+        </div>
+    </div>
+</nav>
+</body>
+</html>
